@@ -18,7 +18,6 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/my-github-lerna
           always-auth: true
-      - run: npm ci
       - run: npx lerna publish from-package
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
