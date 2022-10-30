@@ -8,7 +8,7 @@
   "main": "index.js",
   "repository": "https://github.com/Bugofbook/my-github-lerna",
   "publishConfig": {
-    "@bugofbook:registry": "https://npm.pkg.github.com/bugofbook",
+    "@bugofbook:registry": "https://npm.pkg.github.com/bugofbook"
   },
   "scripts": {
     "test": "node ./__tests__/fp.test.js"
