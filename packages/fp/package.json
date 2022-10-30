@@ -1,21 +1,14 @@
 {
   "name": "@bugofbook/fp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "林裕敏 <bugofbook@gmail.com>",
   "homepage": "https://github.com/Bugofbook/my-github-lerna/tree/main/packages/fp#readme",
   "license": "MIT",
   "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
   "repository": "https://github.com/Bugofbook/my-github-lerna",
   "publishConfig": {
-    "@bugofbook:registry": "https://npm.pkg.github.com/bugofbook"
+    "@bugofbook:registry": "https://npm.pkg.github.com/bugofbook",
   },
   "scripts": {
     "test": "node ./__tests__/fp.test.js"
