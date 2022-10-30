@@ -1,0 +1,26 @@
+{
+  "name": "fp",
+  "version": "1.0.1",
+  "description": "> TODO: description",
+  "author": "林裕敏 <bugofbook@gmail.com>",
+  "homepage": "https://github.com/Bugofbook/my-github-lerna/tree/main/packages/fp#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bugofbook/my-github-lerna.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/fp.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Bugofbook/my-github-lerna/issues"
+  }
+}
