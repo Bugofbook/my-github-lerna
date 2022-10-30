@@ -1,0 +1,25 @@
+{
+  "name": "my-github-lerna",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish": "lerna publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bugofbook/my-github-lerna.git"
+  },
+  "author": "bugofbook@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bugofbook/my-github-lerna/issues"
+  },
+  "homepage": "https://github.com/Bugofbook/my-github-lerna#readme",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.0.1"
+  }
+}
